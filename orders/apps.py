@@ -19,6 +19,7 @@ class OrdersConfig(AppConfig):
                 Order.objects.create(total_amount=Decimal('200.00'), payment_method="paypal")
 
                 #print("Datos de prueba insertados en la tabla orders")
+                # esto es una prueba
         
         except (OperationalError, ObjectDoesNotExist):
             pass
